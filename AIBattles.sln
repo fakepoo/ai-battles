@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBattles.Core", "AIBattles.Core\AIBattles.Core.csproj", "{5652456C-25C0-4E31-BDA3-3451ED1E4D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBattles.Battleship", "AIBattles.Battleship\AIBattles.Battleship.csproj", "{F6B664CE-B524-405A-B4EB-DE23619BA3E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBattles.Tests", "AIBattles.Tests\AIBattles.Tests.csproj", "{825A5416-C1F2-4A43-A49D-2EC3E67F6457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBattles.TicTacToe", "AIBattles.TicTacToe\AIBattles.TicTacToe.csproj", "{6434DF76-D2D2-4761-947C-334F8AF12B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIBattles.Website", "AIBattles.Website\AIBattles.Website.csproj", "{40172B0B-CB72-439B-86EC-7088E824B31F}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5652456C-25C0-4E31-BDA3-3451ED1E4D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5652456C-25C0-4E31-BDA3-3451ED1E4D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5652456C-25C0-4E31-BDA3-3451ED1E4D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5652456C-25C0-4E31-BDA3-3451ED1E4D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B664CE-B524-405A-B4EB-DE23619BA3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B664CE-B524-405A-B4EB-DE23619BA3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B664CE-B524-405A-B4EB-DE23619BA3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B664CE-B524-405A-B4EB-DE23619BA3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{825A5416-C1F2-4A43-A49D-2EC3E67F6457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825A5416-C1F2-4A43-A49D-2EC3E67F6457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{825A5416-C1F2-4A43-A49D-2EC3E67F6457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825A5416-C1F2-4A43-A49D-2EC3E67F6457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6434DF76-D2D2-4761-947C-334F8AF12B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6434DF76-D2D2-4761-947C-334F8AF12B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6434DF76-D2D2-4761-947C-334F8AF12B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6434DF76-D2D2-4761-947C-334F8AF12B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40172B0B-CB72-439B-86EC-7088E824B31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40172B0B-CB72-439B-86EC-7088E824B31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40172B0B-CB72-439B-86EC-7088E824B31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40172B0B-CB72-439B-86EC-7088E824B31F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "AI Battles | Current Battles";
+}
+
+<div ng-controller="BattlesCtrl">
+    <div class="jumbotron">
+        <h1>AI Battles - Battles</h1>
+        <p class="lead">Here are the battles that are currently taking place.</p>
+    </div>
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Player 1</th>
+                    <th>Player 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="battle in battles">
+                    <td>{{battle.Id}}</td>
+                    <td>{{battle.Player1.Name}} ({{battle.Player1.Wins}})</td>
+                    <td>{{battle.Player2.Name}} ({{battle.Player2.Wins}})</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
